@@ -1,23 +1,33 @@
 import React from 'react';
-
+import Name from '../Names/Name';
+import './Cart.css';
 const Cart = (props) => {
     console.log(props.cart);
     const{cart}=props;
     let total=0;
+    let quantity=0;
     for(const trees of cart){
         total=total+trees.totalCost;
+        quantity=quantity+trees.quantity;
     }
     const flowerName=props.cart.typeOfRose;
     console.log(flowerName);
     return (
         <div>
-            <p>This is cart</p>
-            <h3>Nursery Number:{props.cart.length}</h3>
-                <h3>Name Of Nursery:</h3>
-                <p>Name Of Flower:</p>
-                <p>Total-Cost:{total}</p>
-                <br /> <br />
-                <button className="cart-button">Clicked To Delivered</button>
+                <div className="cart-container">
+                    <p>Flowers Item: {props.cart.length}</p>
+                    <p>Total Quantity: {quantity}</p>
+                    <p>Total-Cost: ${total}</p>
+                    <br /> <br />
+                    <button className="cart-button">Clicked To Delivered</button>
+                </div>
+                <div>
+                    {
+                      cart.map(name=><Name  
+                        key={name.saplingOf} 
+                        name={name}></Name>)  
+                    }
+                </div>
         </div>
     );
 };

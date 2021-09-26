@@ -1,6 +1,6 @@
 .text-style{
     font-weight: 500;
-    font-family: 'Times New Roman', Times, serif;
+    
 }
 .nav-style{
     background-color: brown;
@@ -20,8 +20,15 @@
     padding: 9px;
     border-radius: 10px;
 }
+.middle-text-style{
+    color: brown;
+}
 .header-container{
-    background-color: rgb(214, 172, 172);
+    background-color: rgba(240, 200, 200, 0.801);
     padding: 2px;
-    color: whitesmoke;
+    color: brown; 
+}
+.budget{
+    background-color: rgba(216, 148, 148, 0.233);
+    padding: 4px;
 }

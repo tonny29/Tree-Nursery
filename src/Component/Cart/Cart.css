@@ -1,0 +1,22 @@
+.cart-container{
+    text-align: left;
+    color: black;
+    font-size: 25px;
+    margin-left: 5px;
+    font-weight: 800;
+}
+.cart-button{
+    margin-left: 3px;
+    background-color: brown;
+    color: whitesmoke;
+    font-size: 15px;
+    border: 1px solid rgb(233, 29, 29);
+    border-radius: 6px;
+    width: 150px;
+    height: 30px;
+    padding: 3px;
+}
+.cart-button:hover{
+    background-color: gray;
+    padding: 3px;
+}

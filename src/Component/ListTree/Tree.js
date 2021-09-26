@@ -5,6 +5,7 @@ import './Tree.css';
 const Tree = () => {
     const[tree,setTree]=useState([]);
     const[cart,setCart]=useState([]);
+    // console.log(cart);
     useEffect(()=>{
         fetch('./trees.json')
         .then(res=>res.json())
@@ -14,6 +15,7 @@ const Tree = () => {
         const newCart=[...cart,tree];
         setCart(newCart);
     }
+    
     return (
         <div className="container">
             <div className="display-cart" >

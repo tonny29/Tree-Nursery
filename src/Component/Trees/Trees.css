@@ -1,10 +1,15 @@
 .card-container{
     border: 2px solid rgba(202, 89, 89, 0.616);
     border-radius: 5px;
-    margin: 5px;
+    margin: 8px;
     height: 500px;
     padding: 5px;
     background-color: rgba(240, 215, 215, 0.363);
+    box-shadow: 5px 8px 8px gray;
+    
+}
+.card-container:hover{
+    background-color: rgb(236, 201, 201);
 }
 .image-style{
     height: 150px;
