@@ -1,0 +1,27 @@
+.text-style{
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+}
+.nav-style{
+    background-color: brown;
+    text-align: right;
+    padding: 10px;
+}
+.nav-style a{
+    text-decoration: none;
+    color: whitesmoke;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    padding: 9px;
+}
+.nav-style a:hover{
+    background-color: gray;
+    padding: 9px;
+    border-radius: 10px;
+}
+.header-container{
+    background-color: rgb(214, 172, 172);
+    padding: 2px;
+    color: whitesmoke;
+}

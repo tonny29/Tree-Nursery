@@ -1,0 +1,17 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.display-cart{
+    border: 2px solid brown;
+    border-radius: 6px;
+    height: 300px;
+    margin: 5px;
+}
+.cart-button{
+    background-color: rgba(196, 157, 157, 0.801);
+}
+.display-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
