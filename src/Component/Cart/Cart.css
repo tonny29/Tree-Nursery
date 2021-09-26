@@ -1,12 +1,10 @@
 .cart-container{
-    text-align: left;
     color: black;
     font-size: 25px;
     margin-left: 5px;
     font-weight: 800;
 }
 .cart-button{
-    margin-left: 3px;
     background-color: brown;
     color: whitesmoke;
     font-size: 15px;

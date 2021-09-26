@@ -1,6 +1,20 @@
-.add-name-style{
+.selected-trees{
+    display: flex;
+    justify-content: space-evenly;
     padding: 15px;
     color: black;
+    border: 1px solid rgb(248, 167, 167);
+    border-radius: 20px;
+    background-color: rgba(248, 218, 218, 0.452);
+    margin-top: 50px;
+    
+}
+.select-img{
+    height: 100px;
+    width: 110px;
+    border: 2px solid rgb(233, 29, 29);
+    border-radius: 70px;
+    margin-top: 13px;
 }
 .color-of-name{
     color: brown;

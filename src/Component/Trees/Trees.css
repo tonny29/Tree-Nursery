@@ -32,3 +32,9 @@
     background-color: gray;
     padding: 3px;
 }
+.icon-style{
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(180, 105, 105);
+    font-size: 20px;
+}
